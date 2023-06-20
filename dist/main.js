@@ -1,0 +1,1 @@
+(()=>{"use strict";document.querySelectorAll("li").forEach((e=>{const t=e.querySelector(".info");e.addEventListener("mouseover",(e=>{t.classList.toggle("active")})),e.addEventListener("mouseleave",(()=>{t.classList.remove("active")})),t.addEventListener("mouseover",(()=>{t.classList.toggle("active")})),t.addEventListener("mouseleave",(()=>{t.classList.remove("active")}))}))})();
